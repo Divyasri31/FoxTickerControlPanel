@@ -20,7 +20,7 @@ class App extends React.Component {
  
   componentDidMount() {
     
-    const apiUrl = 'https://api.github.com/users/hacktivist123/repos';
+    const apiUrl = 'http://api-controlpanel-dev.us-east-2.elasticbeanstalk.com/api/playlist';
     //const apiUrl = 'https://192.168.1.5:44330/api/Playlist';
     fetch(apiUrl)
     .then((response) => response.json())
